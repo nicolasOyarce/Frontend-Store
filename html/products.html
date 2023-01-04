@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="Logotype">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link" href="../index.html">Store</a>
+        <a class="nav__link nav__link--active" href="about.html">About</a>
+    </nav>
+
+    <main class="content">
+        <h1 class="content__title">VueJS</h1>
+
+        <div class="shirt">
+            <img class="shirt__img" src="../img/1.jpg" alt="img">
+
+            <div class="content__shirt">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ullam excepturi asperiores, perferendis quo amet praesentium accusantium veniam blanditiis? Maiores inventore rerum veritatis magnam necessitatibus!</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Select Size --</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Cant" min="1">
+                    <input class="form__submit" type="submit" value="Add to card">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__elem">FrontEnd Store, all rigth reserve - Nicolas Oyarce</p>
+    </footer>
+</body>
+</html>
